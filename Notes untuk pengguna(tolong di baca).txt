@@ -1,0 +1,16 @@
+apabila order sudah dimasukkan ke keranjang namun belum di checkout maka hasil dari file orders.txt
+
+akan muncul seperti ini (contoh):
+1,1,1
+4,ubi bakar,9000.0,sayur 
+
+1 didepan = id user
+1 di tengah  = user
+1 di belakang = makanannya
+
+jadi si user memesan makanan (1,1,1)
+
+kalau sudah di checkout maka hasilnya akan menjadi 
+(1,1,0)
+
+dimana user sudah melakukan checkout pada item tersebut.
